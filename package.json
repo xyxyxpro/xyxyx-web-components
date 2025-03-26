@@ -1,6 +1,6 @@
 {
   "name": "xyxyx-web-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "xyxyx-web-components is an npm package designed to integrate Xyxyx API's text-based tokenization functionalities within React applications.",
   "main": "dist/index.js",
   "files": [
