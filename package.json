@@ -1,0 +1,59 @@
+{
+  "name": "xyxyx-web-components",
+  "version": "1.0.2",
+  "description": "xyxyx-web-components is an npm package designed to integrate Xyxyx API's text-based tokenization functionalities within React applications.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyxyxpro/xyxyx-web-components.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Doheny, Atlas",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@chromatic-com/storybook": "^3.2.6",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@storybook/addon-essentials": "^8.6.7",
+    "@storybook/addon-interactions": "^8.6.7",
+    "@storybook/addon-onboarding": "^8.6.7",
+    "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
+    "@storybook/blocks": "^8.6.7",
+    "@storybook/react": "^8.6.7",
+    "@storybook/react-webpack5": "^8.6.7",
+    "@storybook/test": "^8.6.7",
+    "babel-loader": "^10.0.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "prop-types": "^15.8.1",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.36.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-svgr": "^4.0.1",
+    "sass": "^1.86.0",
+    "sass-loader": "^16.0.5",
+    "storybook": "^8.6.7",
+    "style-loader": "^4.0.0",
+    "url-loader": "^4.1.1"
+  }
+}
