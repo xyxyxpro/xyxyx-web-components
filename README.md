@@ -48,7 +48,6 @@ yarn add xyxyx-web-components
 | `fontFamily`         | String   | Font-family that is used in the token output text                                                              | `'Courier New', Courier, monospace`                    |
 | `borderRadius`       | String   | Border radius that is applied to the token output                                           | `6px`                                                  |
 | `showDeployerAddress`| Boolean  | Deployer address displayed on the token output bottom left corner                             | `false`                                                |
-| `walletAddress`      | String   | Wallet address to display                                                | -                                                      |
 | `logo`               | String   | 1:1 SVG that is displayed on the top left corner of the token output                             | -                                                      |
 | `watermark`          | String   | 1:1 SVG that is displayed in the background of the token output (with 70% opacity)                             | -                                                 |
 | `showTrademark`      | Boolean  | Xyxyx trademark displayed on the token output bottom right corner                                   | `true`                                                 |
@@ -109,7 +108,6 @@ const App = () => (
     fontFamily="Arial, sans-serif"
     borderRadius="10"
     showDeployerAddress={true}
-    walletAddress="0xABCDEF1234567890"
     smartContract="ERC404"
     network="mainnet"
 />
